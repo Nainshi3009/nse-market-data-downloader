@@ -1,0 +1,38 @@
+# Python virtual environments
+.venv/
+venv/
+.python-version
+
+# Python-generated files
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Test and tool caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local secrets and credentials
+.env
+.env.*
+!.env.example
+credentials/
+secrets/
+credentials.*
+secrets.*
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Runtime logs and downloaded output
+logs/
+output/
+
+# Local editor and operating-system files
+.vscode/
+.DS_Store
+Thumbs.db

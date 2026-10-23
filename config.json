@@ -1,0 +1,9 @@
+{
+  "output_dir": "output",
+  "logs_dir": "logs",
+  "expected_columns": {},
+  "request_timeout_seconds": 20,
+  "max_retries": 3,
+  "retry_backoff_seconds": 1,
+  "automated_access_permitted": false
+}
